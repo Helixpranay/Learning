@@ -1,3 +1,7 @@
+# Description
+
+simple usage of react-i18n for translations of different languages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
