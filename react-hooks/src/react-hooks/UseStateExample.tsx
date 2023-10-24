@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function ReactHook1() {
+function UseStateExample() {
     const [count, setCount] = useState<number>(0);
 
     const increment = () => {
@@ -14,4 +14,4 @@ function ReactHook1() {
   )
 }
 
-export default ReactHook1
+export default UseStateExample

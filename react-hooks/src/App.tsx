@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 // import ReactHook1 from './react-hooks/ReactHook1';
-import ReactHook2 from './react-hooks/ReactHook2';
+import ReactHook2 from './react-hooks/UseEffectExample';
+import UseRefExample from './react-hooks/UseRefExample';
 
 function App() {
   return (
     <div className="App">
-      {/* <ReactHook1/> */}
-      <ReactHook2/>
+      <UseRefExample/>
     </div>
   );
 }

@@ -7,7 +7,7 @@ interface ApiResponse {
     results: {name: string, url: string}[]
 }
 
-function ReactHook2() {
+function UseEffectExample() {
     const [data, setData] = useState<ApiResponse>();
 
     useEffect(() => {
@@ -29,4 +29,4 @@ function ReactHook2() {
   )
 }
 
-export default ReactHook2
+export default UseEffectExample
