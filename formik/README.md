@@ -14,6 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## Learn More
+## Note
 
 1. Ensure that you are using latest version typescript to avoid type error in using ts-pattern package

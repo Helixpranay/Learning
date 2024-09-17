@@ -1,15 +1,16 @@
 import React from "react";
 import "./App.css";
-import { match } from "ts-pattern";
+// import Form1 from "./components/Form/Form1";
+// import Form2 from "./components/Form/Form2";
+import Form3 from "./components/Form/Form3";
 
 function App() {
-  const temp = "2";
   return (
-    <div className="App">
-      {match(temp)
-        .with("2", () => "hello")
-        .exhaustive()}
-    </div>
+    <>
+      {/* <Form1 /> */}
+      {/* <Form2 /> */}
+      <Form3 />
+    </>
   );
 }
 
